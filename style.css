@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 75px;
+    background-color: powderblue;
+    color: black;
+}
+nav ul li{
+    margin-left: 100px;
+}
+.brand{
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    padding: 2px;
+    cursor: pointer;
+}
+.container{
+    background: url('images/pexels-pixabay-247676.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+    padding: 10px;
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+}
+.bottom{
+    background-color: powderblue;
+    color: white;
+    position: sticky;
+    /* margin-top: 70vh; */
+    height: 15vh;
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#myProgressBar{
+    padding-top: 20px;
+    margin-left: 10vw;
+    width: 80vw;
+    
+}
+.songItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid white;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: -2px 2px #888888;
+} 
+.img-logo{
+    height: 20px;
+    width: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.songTime{
+    margin: auto;
+}
+.musicGif{
+    width: 100px;
+    height: 50px;
+    margin-left: 10vw;
+    /* margin-right: 990px; */
+    visibility: hidden;
+}
+/* .play-buttons{
+    
+} */
